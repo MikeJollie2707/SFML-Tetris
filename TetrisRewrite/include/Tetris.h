@@ -70,17 +70,10 @@ private:
 	void update();
 	// Draw the stuffs.
 	void render();
-
+	
+	// Play the music in the background.
+	// Param:
+	// musicName (std::string): the music title. Use "1UP", "Tetris" or "TetrisRS".
 	void playMusic(std::string musicName);
-
-	// Utility
-
-	// Return the corresponding Piece on the array according to the plane coordinate.
-	// Avoid confusion when accessing and rendering and other stuffs.
-	inline Piece& getPiece(int winColumn, int winRow) 
-	{ 
-		//if (winColumn < 0 || winColumn > size.y)
-		return board[winRow][winColumn]; 
-	}
 };
 
