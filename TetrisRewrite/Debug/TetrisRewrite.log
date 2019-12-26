@@ -1,0 +1,4 @@
+﻿  Tetris.cpp
+c:\users\michael\documents\coding\c(++)\c++\projects\tetrisrewrite\tetrisrewrite\tetris.cpp(478): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\michael\documents\coding\c(++)\c++\projects\tetrisrewrite\tetrisrewrite\tetris.cpp(200): warning C4715: 'Tetris::rotate': not all control paths return a value
+  TetrisRewrite.vcxproj -> C:\Users\Michael\Documents\Coding\C(++)\C++\Projects\TetrisRewrite\Debug\TetrisRewrite.exe
