@@ -1,6 +1,5 @@
 #include "Tetris.h"
 #include <iostream>
-#include <thread>
 
 
 Tetris::Tetris(sf::Vector2i boardSize, int grid)
@@ -40,6 +39,7 @@ Tetris::Tetris(sf::Vector2i boardSize, int grid)
 
 	clock.restart();
 	elapsed = 0.0f;
+	
 	canMove = false;
 	isPaused = false;
 	isSlide = false;
