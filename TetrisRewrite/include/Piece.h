@@ -34,10 +34,6 @@ public:
 	// y (unsigned int): the y-pos you want to set.
 	void setPosition(unsigned int x, unsigned int y);
 
-
-	// A check if the piece is still drawing.
-	bool isDrawing;
-
 	// Return: the color of the piece.
 	// Return type: sf::Color.
 	sf::Color getColor() { return renderColor; }
