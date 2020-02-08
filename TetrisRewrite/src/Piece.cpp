@@ -19,7 +19,7 @@ void Piece::createPiece(sf::Vector2i position, bool isCenter, sf::Color color, u
 }
 
 void Piece::setPosition(sf::Vector2i position) { this->position = position; }
-void Piece::setPosition(unsigned int x, unsigned y) { this->position = sf::Vector2i(x, y); }
+void Piece::setPosition(unsigned int x, unsigned int y) { this->position = sf::Vector2i(x, y); }
 
 void Piece::render(sf::RenderWindow& window, bool enableOutline)
 {
